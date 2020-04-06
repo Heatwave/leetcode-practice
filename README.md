@@ -52,6 +52,10 @@
 * [iteration](145.binary-tree-postorder-traversal-iteration.c)
 * [morris](144.binary-tree-preorder-traversal-morris.c)
 
+### 206.reverse-linked-list
+* [recursion](206.reverse-linked-list-recursion.c)
+* [iteration](206.reverse-linked-list-iteration.c)
+
 ### 236.lowest-common-ancestor-of-a-binary-tree
 * [236.lowest-common-ancestor-of-a-binary-tree.cpp](236.lowest-common-ancestor-of-a-binary-tree.cpp)
 
