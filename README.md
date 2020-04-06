@@ -59,6 +59,8 @@
 * [297.serialize-and-deserialize-binary-tree.c](297.serialize-and-deserialize-binary-tree.c)
 * [297.serialize-and-deserialize-binary-tree.cpp](297.serialize-and-deserialize-binary-tree.cpp)
 
+## List
+
 ### 876.middle-of-the-linked-list
 * [recursion](876.middle-of-the-linked-list-recursion.c)
 * [iteration](876.middle-of-the-linked-list-iteration.c)
