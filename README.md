@@ -63,6 +63,11 @@
 * [297.serialize-and-deserialize-binary-tree.c](297.serialize-and-deserialize-binary-tree.c)
 * [297.serialize-and-deserialize-binary-tree.cpp](297.serialize-and-deserialize-binary-tree.cpp)
 
+## Queue & Stack
+
+### 622.design-circular-queue (设计循环队列)
+* [622.design-circular-queue.c](622.design-circular-queue.c)
+
 ## List
 
 ### 876.middle-of-the-linked-list (链表的中间结点)
