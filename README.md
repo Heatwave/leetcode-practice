@@ -68,6 +68,9 @@
 ### 622.design-circular-queue (设计循环队列)
 * [622.design-circular-queue.c](622.design-circular-queue.c)
 
+### 200.number-of-islands (岛屿数量)
+* [dfs](200.number-of-islands-dfs.c)
+
 ## List
 
 ### 876.middle-of-the-linked-list (链表的中间结点)
