@@ -70,6 +70,7 @@
 
 ### 200.number-of-islands (岛屿数量)
 * [dfs](200.number-of-islands-dfs.c)
+* [bfs](200.number-of-islands-bfs.c)
 
 ## List
 
