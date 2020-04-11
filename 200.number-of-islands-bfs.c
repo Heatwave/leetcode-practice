@@ -134,7 +134,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
 
         Point *temp;
 
-        if (i + 1 >= 0 && i + 1 < gridSize)
+        if (i + 1 >= 0 && i + 1 < gridSize && grid[i + 1][j] == '1')
         {
             temp = (Point *)malloc(sizeof(Point));
             temp->i = i + 1;
@@ -142,7 +142,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
             queueEnqueue(q, temp);
         }
 
-        if (i - 1 >= 0 && i - 1 < gridSize)
+        if (i - 1 >= 0 && i - 1 < gridSize && grid[i - 1][j] == '1')
         {
             temp = (Point *)malloc(sizeof(Point));
             temp->i = i - 1;
@@ -150,7 +150,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
             queueEnqueue(q, temp);
         }
 
-        if (j + 1 >= 0 && j + 1 < ColSize)
+        if (j + 1 >= 0 && j + 1 < ColSize && grid[i][j + 1] == '1')
         {
             temp = (Point *)malloc(sizeof(Point));
             temp->i = i;
@@ -158,7 +158,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
             queueEnqueue(q, temp);
         }
 
-        if (j - 1 >= 0 && j - 1 < ColSize)
+        if (j - 1 >= 0 && j - 1 < ColSize && grid[i][j - 1] == '1')
         {
             temp = (Point *)malloc(sizeof(Point));
             temp->i = i;
