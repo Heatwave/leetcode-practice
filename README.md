@@ -73,6 +73,10 @@
 * [bfs](200.number-of-islands-bfs.c)
 * [union find (并查集)](200.number-of-islands-union-find.c)
 
+### 130.surrounded-regions (被围绕的区域)
+* [dfs](130.surrounded-regions-dfs.c)
+* [union find (并查集)](130.surrounded-regions-union-find.c)
+
 ## List
 
 ### 876.middle-of-the-linked-list (链表的中间结点)
