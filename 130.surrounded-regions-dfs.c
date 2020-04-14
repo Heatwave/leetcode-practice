@@ -46,25 +46,21 @@ void solve(char **board, int boardSize, int *boardColSize)
 
     int colSize = boardColSize[0];
 
-    size_t i = 0, j = 0;
-    do
-    {
-        if (board[i][j] == 'O')
-            dfs(board, i, j, boardSize, colSize);
-
-        if (i < boardSize - 1 && j == 0)
-            i += 1;
-        else if (i == boardSize - 1 && j < colSize - 1)
-            j += 1;
-        else if (j == colSize - 1 && i >= 1)
-            i -= 1;
-        else if (i == 0 && j >= 1)
-            j -= 1;
-    } while (i != 0 || j != 0);
+    int i = 0, j = 0;
 
     for (i = 0; i < boardSize; i++)
     {
-        for (j = 0; j < boardColSize[i]; j++)
+        for (j = 0; j < colSize; j++)
+        {
+            if (i == 0 || i == boardSize - 1 || j == 0 || j == colSize - 1)
+                if (board[i][j] == 'O')
+                    dfs(board, i, j, boardSize, colSize);
+        }
+    }
+
+    for (i = 0; i < boardSize; i++)
+    {
+        for (j = 0; j < colSize; j++)
         {
             if (board[i][j] == 'O')
                 board[i][j] = 'X';
