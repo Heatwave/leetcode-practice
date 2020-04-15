@@ -1,5 +1,12 @@
 # Leetcode practice
 
+## Table of content
+
+1. [Tree](#tree)
+1. [Queue & Stack](#queue-&-stack)
+1. [List](#list)
+1. [Others](#others)
+
 ## Tree
 
 ### 92.reverse-linked-list-ii (反转链表 II)
@@ -94,3 +101,5 @@
 
 ### 1323.maximum-69-number (6 和 9 组成的最大数字)
 * [1323.maximum-69-number.c](1323.maximum-69-number.c)
+
+[return to table of content](#Table-of-content)
