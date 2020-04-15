@@ -85,7 +85,7 @@ size_t queueSize(Queue *q)
     return q->size;
 }
 
-void queueTest()
+static void test()
 {
     Queue *q = queueCreate();
     assert(queueIsEmpty(q));

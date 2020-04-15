@@ -10,7 +10,7 @@ enum
 };
 
 // hash: compute hash value of string
-unsigned int hash(char *str)
+static unsigned int hash(char *str)
 {
     unsigned int h;
     unsigned char *p;
@@ -39,7 +39,7 @@ void *lookup(void **table, int replace, char *key, void *data)
     return t;
 }
 
-void hashTableTest()
+static void test()
 {
     void **table = hashTableCreate();
     int *i = (int *)malloc(sizeof(int));
