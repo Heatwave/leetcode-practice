@@ -77,6 +77,9 @@
 * [dfs](130.surrounded-regions-dfs.c)
 * [union find (并查集)](130.surrounded-regions-union-find.c)
 
+### 752.open-the-lock (打开转盘锁)
+* [752.open-the-lock.c](752.open-the-lock.c)
+
 ## List
 
 ### 876.middle-of-the-linked-list (链表的中间结点)
