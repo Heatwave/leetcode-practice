@@ -5,6 +5,19 @@
 
 #include "queue.h"
 
+struct Node
+{
+    void *data;
+    Node *next;
+};
+
+struct Queue
+{
+    Node *head;
+    Node *tail;
+    size_t size;
+};
+
 Queue *queueCreate()
 {
     Queue *q = (Queue *)malloc(sizeof(Queue));

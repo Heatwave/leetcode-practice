@@ -9,19 +9,7 @@
 #define false 0
 
 typedef struct Node Node;
-
-struct Node
-{
-    void *data;
-    Node *next;
-};
-
-typedef struct Queue
-{
-    Node *head;
-    Node *tail;
-    size_t size;
-} Queue;
+typedef struct Queue Queue;
 
 Queue *queueCreate();
 bool queueEnqueue(Queue *q, void *item);
