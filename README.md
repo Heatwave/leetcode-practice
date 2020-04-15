@@ -3,7 +3,7 @@
 ## Table of content
 
 1. [Tree](#tree)
-1. [Queue & Stack](#queue-&-stack)
+1. [Queue & Stack](#queue--stack)
 1. [List](#list)
 1. [Others](#others)
 
