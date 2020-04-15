@@ -1,35 +1,9 @@
-#ifndef QUEUE_H
-#define QUEUE_H
-
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <assert.h>
 
-#define bool int
-#define true 1
-#define false 0
-
-typedef struct Node Node;
-
-struct Node
-{
-    void *data;
-    Node *next;
-};
-
-typedef struct Queue
-{
-    Node *head;
-    Node *tail;
-    size_t size;
-} Queue;
-
-Queue *queueCreate();
-bool queueEnqueue(Queue *q, void *item);
-bool queueDequeue(Queue *q);
-void *queueFront(Queue *q);
-void *queueRear(Queue *q);
-bool queueIsEmpty(Queue *q);
-void queueFree(Queue *q);
+#include "queue.h"
 
 Queue *queueCreate()
 {
@@ -106,10 +80,16 @@ void queueFree(Queue *q)
     free(q);
 }
 
-int main(int argc, char const *argv[])
+size_t queueSize(Queue *q)
+{
+    return q->size;
+}
+
+void queueTest()
 {
     Queue *q = queueCreate();
-    printf("isEmpty: %d size: %zu\n", queueIsEmpty(q), q->size);
+    assert(queueIsEmpty(q));
+    assert(queueSize(q) == 0);
 
     int enqueueRes, dequeueRes;
 
@@ -118,43 +98,40 @@ int main(int argc, char const *argv[])
         int *j = (int *)malloc(sizeof(int));
         *j = i;
         enqueueRes = queueEnqueue(q, j);
-        printf("enqueueRes: %d\n", enqueueRes);
-        if (enqueueRes == false)
-            exit(-1);
+        assert(enqueueRes == true);
     }
 
     int *front = (int *)queueFront(q);
-    printf("front: %d\n", *front);
+    assert(*front == 1);
 
     int *rear = (int *)queueRear(q);
-    printf("rear: %d\n", *rear);
+    assert(*rear == 5);
 
-    printf("isEmpty: %d size: %zu\n", queueIsEmpty(q), q->size);
+    assert(!queueIsEmpty(q));
+    assert(queueSize(q) == 5);
 
     dequeueRes = queueDequeue(q);
-    printf("dequeueRes: %d\n", dequeueRes);
+    assert(dequeueRes == true);
 
     front = (int *)queueFront(q);
-    printf("front: %d\n", *front);
+    assert(*front == 2);
 
-    printf("isEmpty: %d size: %zu\n", queueIsEmpty(q), q->size);
+    assert(!queueIsEmpty(q));
+    assert(queueSize(q) == 4);
 
     queueFree(q);
-    printf("q free\n");
 
     Queue *sq = queueCreate();
 
+    char *str = "ok";
     char *t = (char *)malloc(sizeof(char *));
-    sprintf(t, "ok");
+    sprintf(t, "%s", str);
 
     enqueueRes = queueEnqueue(sq, t);
+    assert(enqueueRes == true);
 
     char *s = (char *)queueFront(sq);
-    printf("%s\n", s);
+    assert(strcmp(s, str) == 0);
 
-    queueFree(q);
-
-    return 0;
+    queueFree(sq);
 }
-
-#endif
