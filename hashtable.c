@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include <assert.h>
 
 #include "hashtable.h"
@@ -23,6 +21,7 @@ static unsigned int hash(char *str)
 void **hashTableCreate()
 {
     void **table = (void **)malloc(sizeof(void *) * NHASH);
+    memset(table, 0, sizeof(void *) * NHASH);
     return table;
 }
 
