@@ -114,9 +114,12 @@ int openLock(char **deadends, int deadendsSize, char *target)
                         queueEnqueue(q, tmp);
                         lookup(hashTable, 1, tmp, tmp);
                     }
+                    else
+                        free(tmp);
                 }
             }
 
+            free(str);
             queueDequeue(q);
         }
         steps++;

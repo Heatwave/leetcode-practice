@@ -61,7 +61,6 @@ bool queueDequeue(Queue *q)
     if (q->head == NULL)
         q->tail = NULL;
 
-    free(node->data);
     free(node);
     q->size -= 1;
     return true;
@@ -123,6 +122,7 @@ static void test()
     assert(!queueIsEmpty(q));
     assert(queueSize(q) == 5);
 
+    free(front);
     dequeueRes = queueDequeue(q);
     assert(dequeueRes == true);
 
@@ -130,7 +130,15 @@ static void test()
     assert(*front == 2);
 
     assert(!queueIsEmpty(q));
-    assert(queueSize(q) == 4);
+    size_t size = queueSize(q);
+    assert(size == 4);
+
+    for (int i = 0; i < size; i++)
+    {
+        front = queueFront(q);
+        free(front);
+        queueDequeue(q);
+    }
 
     queueFree(q);
 
@@ -146,5 +154,13 @@ static void test()
     char *s = (char *)queueFront(sq);
     assert(strcmp(s, str) == 0);
 
+    free(s);
+
     queueFree(sq);
 }
+
+// int main(int argc, char const *argv[])
+// {
+//     test();
+//     return 0;
+// }

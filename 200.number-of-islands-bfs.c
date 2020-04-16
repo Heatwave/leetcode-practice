@@ -1,108 +1,34 @@
+/**
+200. Number of Islands
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+Example 1:
+
+Input:
+11110
+11010
+11000
+00000
+
+Output: 1
+Example 2:
+
+Input:
+11000
+11000
+00100
+00011
+
+Output: 3
+ */
+
+// gcc 200.number-of-islands-bfs.c queue.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define bool int
-#define true 1
-#define false 0
-
-typedef struct Node Node;
-
-struct Node
-{
-    void *data;
-    Node *next;
-};
-
-typedef struct Queue
-{
-    Node *head;
-    Node *tail;
-    size_t size;
-} Queue;
-
-Queue *queueCreate();
-bool queueEnqueue(Queue *q, void *item);
-bool queueDequeue(Queue *q);
-void *queueFront(Queue *q);
-void *queueRear(Queue *q);
-bool queueIsEmpty(Queue *q);
-void queueFree(Queue *q);
-
-Queue *queueCreate()
-{
-    Queue *q = (Queue *)malloc(sizeof(Queue));
-    if (q == NULL)
-        return NULL;
-
-    q->head = q->tail = NULL;
-    q->size = 0;
-    return q;
-}
-
-bool queueEnqueue(Queue *q, void *item)
-{
-    Node *newnode = (Node *)malloc(sizeof(Node));
-    if (newnode == NULL)
-        return false;
-    newnode->data = item;
-    newnode->next = NULL;
-
-    if (q->tail == NULL)
-        q->tail = newnode;
-    else
-    {
-        q->tail->next = newnode;
-        q->tail = q->tail->next;
-    }
-
-    if (q->head == NULL)
-        q->head = q->tail;
-
-    q->size += 1;
-    return true;
-}
-
-bool queueDequeue(Queue *q)
-{
-    if (queueIsEmpty(q))
-        return false;
-    Node *node = q->head;
-    q->head = q->head->next;
-    if (q->head == NULL)
-        q->tail = NULL;
-
-    free(node->data);
-    free(node);
-    q->size -= 1;
-    return true;
-}
-
-void *queueFront(Queue *q)
-{
-    if (queueIsEmpty(q))
-        return NULL;
-    return q->head->data;
-}
-
-void *queueRear(Queue *q)
-{
-    if (queueIsEmpty(q))
-        return NULL;
-    return q->tail->data;
-}
-
-bool queueIsEmpty(Queue *q)
-{
-    return q->size == 0;
-}
-
-void queueFree(Queue *q)
-{
-    while (!queueIsEmpty(q))
-        queueDequeue(q);
-    free(q);
-}
+#include "queue.h"
 
 typedef struct Point
 {
@@ -126,6 +52,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
 
         if (grid[i][j] == '0')
         {
+            free(p);
             queueDequeue(q);
             continue;
         }
@@ -166,6 +93,7 @@ void bfs(char **grid, int i, int j, int gridSize, int ColSize)
             queueEnqueue(q, temp);
         }
 
+        free(p);
         queueDequeue(q);
     }
 }
