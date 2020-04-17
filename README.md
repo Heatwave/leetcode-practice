@@ -87,6 +87,14 @@
 ### 752.open-the-lock (打开转盘锁)
 * [752.open-the-lock.c](752.open-the-lock.c)
 
+### 279.perfect-squares (完全平方数)
+* [recursion](279.perfect-squares-recursion.c)
+* [bfs](279.perfect-squares-bfs.c)
+* [dynamic programming](279.perfect-squares-dp.c)
+* [greedy enum (贪心枚举)](279.perfect-squares-greedy-enum.c)
+* [greedy bfs](279.perfect-squares-greedy-bfs.c)
+* [math (four-square and three-square theorems) (四平方三平方定理)](279.perfect-squares-math.c)
+
 ## List
 
 ### 876.middle-of-the-linked-list (链表的中间结点)
