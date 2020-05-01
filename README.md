@@ -106,6 +106,7 @@
 
 ### 1.two-sum (两数之和)
 * [1.two-sum.c](1.two-sum.c)
+* [_0001TwoSum.java](java/src/com/heatwave/leetcode/_0001TwoSum.java)
 
 ### 1323.maximum-69-number (6 和 9 组成的最大数字)
 * [1323.maximum-69-number.c](1323.maximum-69-number.c)
