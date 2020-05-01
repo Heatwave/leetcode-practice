@@ -3,3 +3,5 @@
 *.vscode
 *.out
 *.dSYM
+.idea
+out
