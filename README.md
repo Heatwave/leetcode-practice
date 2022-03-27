@@ -108,6 +108,12 @@
 * [1.two-sum.c](1.two-sum.c)
 * [_0001TwoSum.java](java/src/com/heatwave/leetcode/_0001TwoSum.java)
 
+### 36.valid-sudoku (有效的数独)
+* [_0036ValidSudoku.java](java/src/com/heatwave/leetcode/_0036ValidSudoku.java)
+
+### 37.sudoku-solver (解数独)
+* [_0037SudokuSolver.java](java/src/com/heatwave/leetcode/_0037SudokuSolver.java)
+
 ### 1323.maximum-69-number (6 和 9 组成的最大数字)
 * [1323.maximum-69-number.c](1323.maximum-69-number.c)
 
