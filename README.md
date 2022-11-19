@@ -10,9 +10,10 @@
 
 ## Algorithm
 
-### 704.binary-search (二分查找)
+### binary-search (二分查找)
 
 * [_0704BinarySearch](java/src/com/heatwave/leetcode/_0704BinarySearch.java)
+* [_0278FirstBadVersion](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java)
 
 ## Tree
 
