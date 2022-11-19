@@ -16,6 +16,10 @@
 * [_0278FirstBadVersion](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java)
 * [_0035SearchInsertPosition](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java)
 
+### double point (双指针)
+
+* [_0977SquaresOfASortedArray](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
