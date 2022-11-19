@@ -14,6 +14,7 @@
 
 * [_0704BinarySearch](java/src/com/heatwave/leetcode/_0704BinarySearch.java)
 * [_0278FirstBadVersion](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java)
+* [_0035SearchInsertPosition](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java)
 
 ## Tree
 
