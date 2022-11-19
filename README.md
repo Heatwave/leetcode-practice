@@ -2,10 +2,17 @@
 
 ## Table of content
 
-1. [Tree](#tree)
-1. [Queue & Stack](#queue--stack)
-1. [List](#list)
-1. [Others](#others)
+1. [Algorithm](#algorithm)
+2. [Tree](#tree)
+3. [Queue & Stack](#queue--stack)
+4. [List](#list)
+5. [Others](#others)
+
+## Algorithm
+
+### 704.binary-search (二分查找)
+
+* [_0704BinarySearch](java/src/com/heatwave/leetcode/_0704BinarySearch.java)
 
 ## Tree
 
