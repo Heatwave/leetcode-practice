@@ -20,6 +20,7 @@
 
 * [_0977SquaresOfASortedArray](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java)
 * [_0189RotateArray](java/src/com/heatwave/leetcode/_0189RotateArray.java)
+* [_0189RotateArrayInPlace](java/src/com/heatwave/leetcode/_0189RotateArrayInPlace.java)
 
 ## Tree
 
