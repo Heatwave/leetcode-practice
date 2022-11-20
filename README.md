@@ -19,6 +19,7 @@
 ### double point (双指针)
 
 * [_0977SquaresOfASortedArray](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java)
+* [_0189RotateArray](java/src/com/heatwave/leetcode/_0189RotateArray.java)
 
 ## Tree
 
