@@ -32,25 +32,23 @@ package com.heatwave.leetcode;
 public class _0283MoveZeroes {
     static class Solution {
         public void moveZeroes(int[] nums) {
-            int left = 0, right = 0;
+            int left = 0;
 
-            while (left < nums.length) {
+            while (left <= nums.length - 2) {
                 if (nums[left] != 0) {
                     left++;
-                    right = left;
                     continue;
                 }
 
-                if (nums[left] == 0 && nums[right] != 0) {
-                    swap(nums, left, right);
-                } else {
+                int right = left + 1;
+                while (right < nums.length) {
+                    if (nums[right] != 0) {
+                        swap(nums, left, right);
+                        break;
+                    }
                     right++;
                 }
-
-                if (right >= nums.length) {
-                    left++;
-                    right = left;
-                }
+                left++;
             }
         }
 
