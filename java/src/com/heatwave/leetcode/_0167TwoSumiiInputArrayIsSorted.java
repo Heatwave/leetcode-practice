@@ -50,8 +50,12 @@ public class _0167TwoSumiiInputArrayIsSorted {
             while (true) {
                 right = left + 1;
                 while (right < numbers.length) {
-                    if (numbers[left] + numbers[right] == target) {
+                    int res = numbers[left] + numbers[right];
+                    if (res == target) {
                         return new int[]{left + 1, right + 1};
+                    }
+                    if (res > target) {
+                        break;
                     }
                     right++;
                 }
