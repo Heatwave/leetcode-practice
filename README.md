@@ -6,7 +6,8 @@
 2. [Tree](#tree)
 3. [Queue & Stack](#queue--stack)
 4. [List](#list)
-5. [Others](#others)
+5. [Dynamic Programming](#dynamic-programming)
+6. [Others](#others)
 
 ## Algorithm
 
@@ -140,6 +141,10 @@
 * [recursion](c/876.middle-of-the-linked-list-recursion.c)
 * [iteration](c/876.middle-of-the-linked-list-iteration.c)
 * [slow-fast-pointers](c/876.middle-of-the-linked-list-slow-fast.c)
+
+## Dynamic Programming
+
+* [_0070ClimbingStairs](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java)
 
 ## Others
 
