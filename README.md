@@ -146,6 +146,7 @@
 
 * [_0070ClimbingStairs](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java)
 * [_0064MinimumPathSum](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java)
+* [Interview0801ThreeStepsProblem](java/src/com/heatwave/leetcode/Interview0801ThreeStepsProblem.java)
 
 ## Others
 
