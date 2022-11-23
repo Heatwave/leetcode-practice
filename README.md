@@ -25,6 +25,8 @@
 * [_0283MoveZeroes](java/src/com/heatwave/leetcode/_0283MoveZeroes.java)
 * [_0167TwoSumiiInputArrayIsSorted](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java)
 * [_0344ReverseString](java/src/com/heatwave/leetcode/_0344ReverseString.java)
+* [_0876MiddleOfTheLinkedList_SinglePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_SinglePoint.java)
+* [_0876MiddleOfTheLinkedList_DoublePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_DoublePoint.java)
 
 ## Tree
 
