@@ -27,6 +27,7 @@
 * [_0344ReverseString](java/src/com/heatwave/leetcode/_0344ReverseString.java)
 * [_0876MiddleOfTheLinkedList_SinglePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_SinglePoint.java)
 * [_0876MiddleOfTheLinkedList_DoublePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_DoublePoint.java)
+* [_0019RemoveNthNodeFromEndOfList](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java)
 
 ## Tree
 
