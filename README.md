@@ -33,6 +33,7 @@
 
 * [_0003LongestSubstringWithoutRepeatingCharacters](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java)
 * [_0567PermutationInString](java/src/com/heatwave/leetcode/_0567PermutationInString.java)
+* [_0567PermutationInString_SlidingWindow](java/src/com/heatwave/leetcode/_0567PermutationInString_SlidingWindow.java)
 
 ## Tree
 
