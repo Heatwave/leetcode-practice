@@ -1,4 +1,4 @@
-package com.heatwave.contest.biweekly._20221127_92;
+package com.heatwave.contest.biweekly._20221126_92;
 
 /**
  * 6249. Minimum Cuts to Divide a Circle

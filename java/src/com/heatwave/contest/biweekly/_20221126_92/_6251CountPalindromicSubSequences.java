@@ -1,4 +1,4 @@
-package com.heatwave.contest.biweekly._20221127_92;
+package com.heatwave.contest.biweekly._20221126_92;
 
 public class _6251CountPalindromicSubSequences {
     static class Solution {
