@@ -38,6 +38,7 @@
 ### BFS/DFS (广度优先搜索/深度优先搜索)
 
 * [_0733FloodFill](java/src/com/heatwave/leetcode/_0733FloodFill.java)
+* [_0695MaxAreaOfIsland](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java)
 
 ## Tree
 
