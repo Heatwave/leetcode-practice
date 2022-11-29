@@ -40,6 +40,8 @@
 * [_0733FloodFill](java/src/com/heatwave/leetcode/_0733FloodFill.java)
 * [_0695MaxAreaOfIsland](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java)
 * [_0617MergeTwoBinaryTrees](java/src/com/heatwave/leetcode/_0617MergeTwoBinaryTrees.java)
+* [_0116PopulatingNextRightPointersInEachNode](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java)
+* [_0116PopulatingNextRightPointersInEachNode_Recursive](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode_Recursive.java)
 
 ## Tree
 
