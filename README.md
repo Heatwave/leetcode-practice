@@ -42,6 +42,8 @@
 * [_0617MergeTwoBinaryTrees](java/src/com/heatwave/leetcode/_0617MergeTwoBinaryTrees.java)
 * [_0116PopulatingNextRightPointersInEachNode](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java)
 * [_0116PopulatingNextRightPointersInEachNode_Recursive](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode_Recursive.java)
+* [_0542Matrix01_BFS](java/src/com/heatwave/leetcode/_0542Matrix01_BFS.java)
+* [_0542Matrix01_DP](java/src/com/heatwave/leetcode/_0542Matrix01_DP.java)
 
 ## Tree
 
