@@ -46,6 +46,11 @@
 * [_0542Matrix01_DP](java/src/com/heatwave/leetcode/_0542Matrix01_DP.java)
 * [_0994RottingOranges](java/src/com/heatwave/leetcode/_0994RottingOranges.java)
 
+### Recursive / Backtrace (递归 / 回溯)
+
+* [_0021MergeTwoSortedLists](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java)
+* [_0021MergeTwoSortedLists_Recursive](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists_Recursive.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
