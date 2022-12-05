@@ -50,6 +50,8 @@
 
 * [_0021MergeTwoSortedLists](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java)
 * [_0021MergeTwoSortedLists_Recursive](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists_Recursive.java)
+* [_0206ReverseLinkedList_Recursive](java/src/com/heatwave/leetcode/_0206ReverseLinkedList_Recursive.java)
+* [_0206ReverseLinkedList_Iteration](java/src/com/heatwave/leetcode/_0206ReverseLinkedList_Iteration.java)
 
 ## Tree
 
