@@ -2,58 +2,74 @@
 
 ## Table of content
 
-1. [Algorithm](#algorithm)
+1. [Problems](#problems)
+1. [Interview](#interview)
+1. [Weekly Contest](#weekly-contest)
+1. [Biweekly Contest](#biweekly-contest)
 2. [Tree](#tree)
 3. [Queue & Stack](#queue--stack)
 4. [List](#list)
 5. [Dynamic Programming](#dynamic-programming)
 6. [Others](#others)
 
-## Algorithm
+## Problems
 
-### binary-search (二分查找)
+- [1. Two Sum (两数之和)](java/src/com/heatwave/leetcode/_0001TwoSum.java) - `Array (数组)`, `Hash Table (哈希表)`
+- [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java) - `Sliding Window (滑动窗口)`
+- [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Double Point (双指针)`
+- [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Double Point (双指针)`, `Recursive (递归)`
+- [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
+- [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
+- [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
+- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - ``Backtracking (回溯)``
+- [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
+- [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
+- [77. Combinations (组合)](java/src/com/heatwave/leetcode/_0077Combinations.java) - `Backtracking (回溯)`
+- [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/_0092ReverseLinkedListii.java) - `Linked List (链表)`
+- [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/_0094BinaryTreeInorderTraversalRecursion.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
+- [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
+- [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Double Point (双指针)`
+- [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
+- [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
+- [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
+- [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/_0283MoveZeroes.java) - `Double Point (双指针)`
+- [344. Reverse String (反转字符串)](java/src/com/heatwave/leetcode/_0344ReverseString.java) - `Double Point (双指针)`
+- [542. 01 Matrix (01 矩阵)](java/src/com/heatwave/leetcode/_0542Matrix01.java) - `BFS (广度优先搜索)`, `Dynamic Programming (动态规划)`
+- [557. Reverse Words in a String III (反转字符串中的单词 III)](java/src/com/heatwave/leetcode/_0557ReverseWordsInAStringiii.java) - `String (字符串)`
+- [567. Permutation in String (字符串的排列)](java/src/com/heatwave/leetcode/_0567PermutationInString.java) - `Sliding Window (滑动窗口)`
+- [617. Merge Two Binary Trees (合并二叉树)](java/src/com/heatwave/leetcode/_0617MergeTwoBinaryTrees.java) - `DFS (深度优先搜索)`
+- [695. Max Area of Island (岛屿的最大面积)](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java) - `DFS (深度优先搜索)`
+- [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/_0704BinarySearch.java) - `Binary Search (二分查找)`
+- [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/_0733FloodFill.java) - `DFS (深度优先搜索)`
+- [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList.java) - `Double Point (双指针)`
+- [977. Squares of a Sorted Array (有序数组的平方)](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java) - `Double Point (双指针)`
+- [994. Rotting Oranges (腐烂的橘子)](java/src/com/heatwave/leetcode/_0994RottingOranges.java) - `BFS (广度优先搜索)`
+- [1732. Find the Highest Altitude (找到最高海拔)](java/src/com/heatwave/leetcode/_1732FindTheHighestAltitude.java) - `Prefix Sum (前缀和)`
 
-* [_0704BinarySearch](java/src/com/heatwave/leetcode/_0704BinarySearch.java)
-* [_0278FirstBadVersion](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java)
-* [_0035SearchInsertPosition](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java)
+## Interview
 
-### double point (双指针)
+- [08.01. Three steps problem (三步问题)](java/src/com/heatwave/leetcode/Interview0801ThreeStepsProblem.java) - `Dynamic Programming (动态规划)`
 
-* [_0977SquaresOfASortedArray](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java)
-* [_0189RotateArray](java/src/com/heatwave/leetcode/_0189RotateArray.java)
-* [_0189RotateArrayInPlace](java/src/com/heatwave/leetcode/_0189RotateArrayInPlace.java)
-* [_0283MoveZeroes](java/src/com/heatwave/leetcode/_0283MoveZeroes.java)
-* [_0167TwoSumiiInputArrayIsSorted](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java)
-* [_0344ReverseString](java/src/com/heatwave/leetcode/_0344ReverseString.java)
-* [_0876MiddleOfTheLinkedList_SinglePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_SinglePoint.java)
-* [_0876MiddleOfTheLinkedList_DoublePoint](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList_DoublePoint.java)
-* [_0019RemoveNthNodeFromEndOfList](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java)
+## Weekly Contest
 
-### Sliding Window (滑动窗口)
+### 321. 2022-11-27
 
-* [_0003LongestSubstringWithoutRepeatingCharacters](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java)
-* [_0567PermutationInString](java/src/com/heatwave/leetcode/_0567PermutationInString.java)
-* [_0567PermutationInString_SlidingWindow](java/src/com/heatwave/leetcode/_0567PermutationInString_SlidingWindow.java)
+- [6245. Find the pivot integer (找出中枢整数)](java/src/com/heatwave/contest/weekly/_20221127_321/_6245FindThePivotInteger.java)
+- [6246. Append characters to string to make subsequence (追加字符以获得子序列)](java/src/com/heatwave/contest/weekly/_20221127_321/_6246AppendCharactersToStringToMakeSubsequence.java)
+- [6247. Remove nodes from linked list (从链表中移除节点)](java/src/com/heatwave/contest/weekly/_20221127_321/_6247RemoveNodesFromLinkedList.java)
 
-### BFS/DFS (广度优先搜索/深度优先搜索)
+### 322. 2022-12-04
 
-* [_0733FloodFill](java/src/com/heatwave/leetcode/_0733FloodFill.java)
-* [_0695MaxAreaOfIsland](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java)
-* [_0617MergeTwoBinaryTrees](java/src/com/heatwave/leetcode/_0617MergeTwoBinaryTrees.java)
-* [_0116PopulatingNextRightPointersInEachNode](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java)
-* [_0116PopulatingNextRightPointersInEachNode_Recursive](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode_Recursive.java)
-* [_0542Matrix01_BFS](java/src/com/heatwave/leetcode/_0542Matrix01_BFS.java)
-* [_0542Matrix01_DP](java/src/com/heatwave/leetcode/_0542Matrix01_DP.java)
-* [_0994RottingOranges](java/src/com/heatwave/leetcode/_0994RottingOranges.java)
+- [6253. Circular sentence (回环句)](java/src/com/heatwave/contest/weekly/_20221204_322/_6253CircularSentence.java)
+- [6254. Divide players into teams of equal skill (划分技能点相等的团队)](java/src/com/heatwave/contest/weekly/_20221204_322/_6254DividePlayersIntoTeamsOfEqualSkill.java)
 
-### Recursive / Backtrace (递归 / 回溯)
+## Biweekly Contest
 
-* [_0021MergeTwoSortedLists](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java)
-* [_0021MergeTwoSortedLists_Recursive](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists_Recursive.java)
-* [_0206ReverseLinkedList_Recursive](java/src/com/heatwave/leetcode/_0206ReverseLinkedList_Recursive.java)
-* [_0206ReverseLinkedList_Iteration](java/src/com/heatwave/leetcode/_0206ReverseLinkedList_Iteration.java)
-* [_0077Combinations](java/src/com/heatwave/leetcode/_0077Combinations.java)
-* [_0046Permutations](java/src/com/heatwave/leetcode/_0046Permutations.java)
+### 92. 2022-11-26
+
+- [6249. Minimum cuts to divide a circle (分割圆的最少切割次数)](java/src/com/heatwave/contest/biweekly/_20221126_92/_6249MinimumCutsToDivideACircle.java)
+- [6250. Minimum penalty for a shop (商店的最少代价)](java/src/com/heatwave/contest/biweekly/_20221126_92/_6250MinimumPenaltyForAShop.java)
+- [6277. Difference between ones and zeros in row and column (行和列中一和零的差值)](java/src/com/heatwave/contest/biweekly/_20221126_92/_6277DifferenceBetweenOnesAndZerosInRowAndColumn.java)
 
 ## Tree
 

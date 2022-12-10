@@ -13,7 +13,7 @@ package com.heatwave.leetcode;
  * <p>
  * A linked list can be reversed either iteratively or recursively. Could you implement both?
  */
-public class _0206ReverseLinkedList_Iteration {
+public class _0206ReverseLinkedList {
 
     private static class ListNode {
         int val;
@@ -42,6 +42,20 @@ public class _0206ReverseLinkedList_Iteration {
             middle.next = left;
 
             return middle;
+        }
+    }
+
+    static class SolutionRecursive {
+        public ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) {
+                return head;
+            }
+
+            ListNode newHead = reverseList(head.next);
+            head.next.next = head;
+            head.next = null;
+
+            return newHead;
         }
     }
 }

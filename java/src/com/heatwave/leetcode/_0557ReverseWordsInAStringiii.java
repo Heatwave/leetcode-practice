@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
  * 链接：https://leetcode.cn/problems/reverse-words-in-a-string-iii
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class _0577ReverseWordsInAStringiii {
+public class _0557ReverseWordsInAStringiii {
     static class Solution {
         public String reverseWords(String s) {
             return Arrays.stream(s.split(" "))

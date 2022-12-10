@@ -30,7 +30,7 @@ package com.heatwave.leetcode;
  * 链接：https://leetcode.cn/problems/middle-of-the-linked-list
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class _0876MiddleOfTheLinkedList_DoublePoint {
+public class _0876MiddleOfTheLinkedList {
     private static class ListNode {
         int val;
         ListNode next;
@@ -49,6 +49,28 @@ public class _0876MiddleOfTheLinkedList_DoublePoint {
     }
 
     static class Solution {
+        public ListNode middleNode(ListNode head) {
+            ListNode node = head;
+            int count = 0;
+
+            while (node != null) {
+                node = node.next;
+                count++;
+            }
+
+            count = count / 2;
+
+            node = head;
+            while (count > 0) {
+                node = node.next;
+                count--;
+            }
+
+            return node;
+        }
+    }
+
+    static class SolutionDoublePoint {
         public ListNode middleNode(ListNode head) {
             ListNode slow = head, fast = head;
 

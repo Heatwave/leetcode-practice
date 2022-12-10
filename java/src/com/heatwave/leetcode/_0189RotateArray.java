@@ -61,6 +61,30 @@ public class _0189RotateArray {
         }
     }
 
+    static class SolutionInPlace {
+        public void rotate(int[] nums, int k) {
+            k = k % nums.length;
+
+            if (k == 0) {
+                return;
+            }
+
+            int pos = 0;
+            int current = pos, count = 0;
+            while (count++ < nums.length) {
+                int next = (current + k) % nums.length;
+                if (next == pos) {
+                    current = ++pos;
+                    continue;
+                }
+                int temp = nums[next];
+                nums[next] = nums[pos];
+                nums[pos] = temp;
+                current = next;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = {1, 2, 3, 4, 5, 6, 7};

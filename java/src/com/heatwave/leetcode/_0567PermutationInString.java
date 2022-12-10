@@ -66,6 +66,56 @@ public class _0567PermutationInString {
         }
     }
 
+    static class SolutionSlidingWindow {
+        public boolean checkInclusion(String s1, String s2) {
+            int m = s1.length(), n = s2.length();
+            if (m > n) {
+                return false;
+            }
+
+            int[] count = new int[26];
+
+            char[] chars1 = s1.toCharArray();
+            for (char c : chars1) {
+                count[c - 'a']++;
+            }
+
+            char[] chars2 = s2.toCharArray();
+            for (int i = 0; i < m; i++) {
+                count[chars2[i] - 'a']--;
+            }
+
+            boolean noDiff = true;
+            for (int i = 0; i < 26; i++) {
+                if (count[i] != 0) {
+                    noDiff = false;
+                    break;
+                }
+            }
+            if (noDiff) {
+                return true;
+            }
+
+            for (int i = m; i < n; i++) {
+                count[chars2[i - m] - 'a']++;
+                count[chars2[i] - 'a']--;
+
+                noDiff = true;
+                for (int j = 0; j < 26; j++) {
+                    if (count[j] != 0) {
+                        noDiff = false;
+                        break;
+                    }
+                }
+                if (noDiff) {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        boolean res = solution.checkInclusion("oooo", "eidbaooo");
