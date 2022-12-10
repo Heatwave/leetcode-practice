@@ -21,7 +21,7 @@
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
 - [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
 - [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
-- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - ``Backtracking (回溯)``
+- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - `Backtracking (回溯)`
 - [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
 - [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
 - [77. Combinations (组合)](java/src/com/heatwave/leetcode/_0077Combinations.java) - `Backtracking (回溯)`
@@ -41,6 +41,7 @@
 - [695. Max Area of Island (岛屿的最大面积)](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java) - `DFS (深度优先搜索)`
 - [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/_0704BinarySearch.java) - `Binary Search (二分查找)`
 - [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/_0733FloodFill.java) - `DFS (深度优先搜索)`
+- [784. Letter case permutation (字母大小写全排列)](java/src/com/heatwave/leetcode/_0784LetterCasePermutation.java) - `BFS (广度优先搜索)`, `Backtracking (回溯)`
 - [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList.java) - `Double Point (双指针)`
 - [977. Squares of a Sorted Array (有序数组的平方)](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java) - `Double Point (双指针)`
 - [994. Rotting Oranges (腐烂的橘子)](java/src/com/heatwave/leetcode/_0994RottingOranges.java) - `BFS (广度优先搜索)`
