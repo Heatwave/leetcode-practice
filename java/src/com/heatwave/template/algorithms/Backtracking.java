@@ -86,4 +86,24 @@ public class Backtracking {
             backtracking(start + 1, end, k);
         }
     }
+
+    static class SubSetsSolution {
+        List<Integer> temp = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
+
+        public List<List<Integer>> subsets(int[] nums) {
+            backtracking(nums, 0);
+            return ans;
+        }
+
+        private void backtracking(int[] nums, int start) {
+            ans.add(new ArrayList<>(temp));
+
+            for (int i = start; i < nums.length; i++) {
+                temp.add(nums[i]);
+                backtracking(nums, i + 1);
+                temp.remove(temp.size() - 1);
+            }
+        }
+    }
 }
