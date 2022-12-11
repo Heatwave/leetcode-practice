@@ -65,6 +65,12 @@
 - [6253. Circular sentence (回环句)](java/src/com/heatwave/contest/weekly/_20221204_322/_6253CircularSentence.java)
 - [6254. Divide players into teams of equal skill (划分技能点相等的团队)](java/src/com/heatwave/contest/weekly/_20221204_322/_6254DividePlayersIntoTeamsOfEqualSkill.java)
 
+### 323. 2022-12-11
+
+- [6257. Delete Greatest Value in Each Row (删除每行中的最大值)](java/src/com/heatwave/contest/weekly/_20221211_323/_6257DeleteGreatestValueInEachRow.java)
+- [6258. Longest Square Streak in an Array (数组中最长的方波)](java/src/com/heatwave/contest/weekly/_20221211_323/_6258LongestSquareStreakInAnArray.java)
+- [6259. Design Memory Allocator (设计内存分配器)](java/src/com/heatwave/contest/weekly/_20221211_323/_6259DesignMemoryAllocator.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
@@ -73,7 +79,7 @@
 - [6250. Minimum penalty for a shop (商店的最少代价)](java/src/com/heatwave/contest/biweekly/_20221126_92/_6250MinimumPenaltyForAShop.java)
 - [6277. Difference between ones and zeros in row and column (行和列中一和零的差值)](java/src/com/heatwave/contest/biweekly/_20221126_92/_6277DifferenceBetweenOnesAndZerosInRowAndColumn.java)
 
-### 93. 2022-12-11
+### 93. 2022-12-10
 
 - [6261. Maximum Value of a String in an Array (数组中字符串的最大值)](java/src/com/heatwave/contest/biweekly/_20221210_93/_6261MaximumValueOfAStringInAnArray.java)
 - [6262. Maximum Star Sum of a Graph (图中最大星和)](java/src/com/heatwave/contest/biweekly/_20221210_93/_6262MaximumStarSumOfAGraph.java)
