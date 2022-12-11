@@ -27,6 +27,7 @@
 - [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
 - [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
 - [77. Combinations (组合)](java/src/com/heatwave/leetcode/_0077Combinations.java) - `Backtracking (回溯)`
+- [78. Subsets (子集)](java/src/com/heatwave/leetcode/_0078SubSets.java) - `Backtracking (回溯)`
 - [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/_0092ReverseLinkedListii.java) - `Linked List (链表)`
 - [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/_0094BinaryTreeInorderTraversalRecursion.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
 - [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
