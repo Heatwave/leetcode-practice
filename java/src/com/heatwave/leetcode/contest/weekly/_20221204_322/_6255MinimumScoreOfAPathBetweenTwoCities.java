@@ -1,4 +1,4 @@
-package com.heatwave.contest.weekly._20221204_322;
+package com.heatwave.leetcode.contest.weekly._20221204_322;
 
 public class _6255MinimumScoreOfAPathBetweenTwoCities {
     static class Solution {

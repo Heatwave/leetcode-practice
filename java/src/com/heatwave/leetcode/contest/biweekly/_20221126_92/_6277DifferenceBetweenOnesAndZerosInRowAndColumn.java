@@ -1,4 +1,4 @@
-package com.heatwave.contest.biweekly._20221126_92;
+package com.heatwave.leetcode.contest.biweekly._20221126_92;
 
 /**
  * 6277. Difference Between Ones and Zeros in Row and Column

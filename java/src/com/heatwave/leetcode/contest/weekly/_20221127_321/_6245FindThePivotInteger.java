@@ -1,4 +1,4 @@
-package com.heatwave.contest.weekly._20221127_321;
+package com.heatwave.leetcode.contest.weekly._20221127_321;
 
 public class _6245FindThePivotInteger {
     static class Solution {

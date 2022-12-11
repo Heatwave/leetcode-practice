@@ -1,4 +1,4 @@
-package com.heatwave.contest.weekly._20221211_323;
+package com.heatwave.leetcode.contest.weekly._20221211_323;
 
 import java.util.Arrays;
 

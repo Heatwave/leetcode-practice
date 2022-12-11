@@ -1,4 +1,4 @@
-package com.heatwave.contest.biweekly._20221210_93;
+package com.heatwave.leetcode.contest.biweekly._20221210_93;
 
 public class _6263FrogJumpii {
     static class Solution {
