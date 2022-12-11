@@ -16,6 +16,7 @@
 
 - [1. Two Sum (两数之和)](java/src/com/heatwave/leetcode/_0001TwoSum.java) - `Array (数组)`, `Hash Table (哈希表)`
 - [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java) - `Sliding Window (滑动窗口)`
+- [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
 - [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Double Point (双指针)`
 - [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Double Point (双指针)`, `Recursive (递归)`
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
