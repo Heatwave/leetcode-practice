@@ -24,6 +24,7 @@
 - [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
 - [40. Combination Sum II (组合总和 II)](java/src/com/heatwave/leetcode/_0040CombinationSumii.java) - `Backtracking (回溯)`
 - [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - `Backtracking (回溯)`
+- [47. Permutations II (全排列 II)](java/src/com/heatwave/leetcode/_0047Permutationsii.java) - `Backtracking (回溯)`
 - [51. N-Queens (N 皇后)](java/src/com/heatwave/leetcode/_0051NQueens.java) - `Backtracking (回溯)`
 - [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
 - [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
