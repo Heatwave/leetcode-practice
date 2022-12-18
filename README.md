@@ -76,6 +76,11 @@
 - [6258. Longest Square Streak in an Array (数组中最长的方波)](java/src/com/heatwave/leetcode/contest/weekly/_20221211_323/_6258LongestSquareStreakInAnArray.java)
 - [6259. Design Memory Allocator (设计内存分配器)](java/src/com/heatwave/leetcode/contest/weekly/_20221211_323/_6259DesignMemoryAllocator.java)
 
+### 324. 2022-12-18
+
+- [6265. Count Pairs Of Similar Strings (统计相似字符串对的数目)](java/src/com/heatwave/leetcode/contest/weekly/_20221218_324/_6265CountPairsOfSimilarStrings.java)
+- [6266. Smallest Value After Replacing With Sum of Prime Factors (使用质因数之和替换后可以取到的最小值)](java/src/com/heatwave/leetcode/contest/weekly/_20221218_324/_6266SmallestValueAfterReplacingWithSumOfPrimeFactors.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
