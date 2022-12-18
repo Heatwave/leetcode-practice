@@ -38,6 +38,7 @@
 - [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Double Point (双指针)`
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
+- [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/_0216CombinationSumiii.java) - `Backtracking (回溯)`
 - [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
 - [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/_0283MoveZeroes.java) - `Double Point (双指针)`
 - [344. Reverse String (反转字符串)](java/src/com/heatwave/leetcode/_0344ReverseString.java) - `Double Point (双指针)`
