@@ -22,6 +22,7 @@
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
 - [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
 - [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
+- [39. Combination Sum (组合总和)](java/src/com/heatwave/leetcode/_0039CombinationSum.java) - `Backtracking (回溯)`
 - [40. Combination Sum II (组合总和 II)](java/src/com/heatwave/leetcode/_0040CombinationSumii.java) - `Backtracking (回溯)`
 - [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - `Backtracking (回溯)`
 - [47. Permutations II (全排列 II)](java/src/com/heatwave/leetcode/_0047Permutationsii.java) - `Backtracking (回溯)`
