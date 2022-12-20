@@ -42,6 +42,7 @@
 - [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
 - [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/_0283MoveZeroes.java) - `Double Point (双指针)`
 - [344. Reverse String (反转字符串)](java/src/com/heatwave/leetcode/_0344ReverseString.java) - `Double Point (双指针)`
+- [491. Increasing Subsequences (递增子序列)](java/src/com/heatwave/leetcode/_0491IncreasingSubsequences.java) - `Backtracking (回溯)`, `Hash Table (哈希表)`
 - [542. 01 Matrix (01 矩阵)](java/src/com/heatwave/leetcode/_0542Matrix01.java) - `BFS (广度优先搜索)`, `Dynamic Programming (动态规划)`
 - [557. Reverse Words in a String III (反转字符串中的单词 III)](java/src/com/heatwave/leetcode/_0557ReverseWordsInAStringiii.java) - `String (字符串)`
 - [567. Permutation in String (字符串的排列)](java/src/com/heatwave/leetcode/_0567PermutationInString.java) - `Sliding Window (滑动窗口)`
