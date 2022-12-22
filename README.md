@@ -31,6 +31,7 @@
 - [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
 - [77. Combinations (组合)](java/src/com/heatwave/leetcode/_0077Combinations.java) - `Backtracking (回溯)`
 - [78. Subsets (子集)](java/src/com/heatwave/leetcode/_0078SubSets.java) - `Backtracking (回溯)`
+- [86. Partition List (分隔链表)](java/src/com/heatwave/leetcode/_0086PartitionList.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [90. Subsets ii (子集 II)](java/src/com/heatwave/leetcode/_0090SubSetsii.java) - `Backtracking (回溯)`
 - [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/_0092ReverseLinkedListii.java) - `Linked List (链表)`
 - [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/_0094BinaryTreeInorderTraversalRecursion.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
