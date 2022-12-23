@@ -19,6 +19,7 @@
 - [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
 - [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Double Point (双指针)`
 - [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Recursive (递归)`
+- [23. Merge k Sorted Lists (合并K个升序链表)](java/src/com/heatwave/leetcode/_0023MergeKSortedLists.java) - `Linked List (链表)`, `Priority Queue (优先级队列)`
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
 - [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
 - [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
