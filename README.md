@@ -17,7 +17,7 @@
 - [1. Two Sum (两数之和)](java/src/com/heatwave/leetcode/_0001TwoSum.java) - `Array (数组)`, `Hash Table (哈希表)`
 - [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java) - `Sliding Window (滑动窗口)`
 - [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
-- [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Double Point (双指针)`
+- [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Recursive (递归)`
 - [23. Merge k Sorted Lists (合并K个升序链表)](java/src/com/heatwave/leetcode/_0023MergeKSortedLists.java) - `Linked List (链表)`, `Priority Queue (优先级队列)`
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
@@ -37,6 +37,7 @@
 - [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/_0092ReverseLinkedListii.java) - `Linked List (链表)`
 - [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/_0094BinaryTreeInorderTraversalRecursion.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
 - [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
+- [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Double Point (双指针)`
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
@@ -53,7 +54,7 @@
 - [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/_0704BinarySearch.java) - `Binary Search (二分查找)`
 - [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/_0733FloodFill.java) - `DFS (深度优先搜索)`
 - [784. Letter case permutation (字母大小写全排列)](java/src/com/heatwave/leetcode/_0784LetterCasePermutation.java) - `BFS (广度优先搜索)`, `Backtracking (回溯)`
-- [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList.java) - `Double Point (双指针)`
+- [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [977. Squares of a Sorted Array (有序数组的平方)](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java) - `Double Point (双指针)`
 - [994. Rotting Oranges (腐烂的橘子)](java/src/com/heatwave/leetcode/_0994RottingOranges.java) - `BFS (广度优先搜索)`
 - [1732. Find the Highest Altitude (找到最高海拔)](java/src/com/heatwave/leetcode/_1732FindTheHighestAltitude.java) - `Prefix Sum (前缀和)`
