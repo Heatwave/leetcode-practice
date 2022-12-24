@@ -47,4 +47,11 @@ public class Prime {
         }
         return b;
     }
+
+    /**
+     * 最小公倍数 Least Common Multiple
+     */
+    private static int lcm(int a, int b) {
+        return a * b / gcd(a, b);
+    }
 }
