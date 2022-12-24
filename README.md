@@ -101,6 +101,11 @@
 - [6262. Maximum Star Sum of a Graph (图中最大星和)](java/src/com/heatwave/leetcode/contest/biweekly/_20221210_93/_6262MaximumStarSumOfAGraph.java)
 - [6263. Frog Jump II (青蛙过河 II)](java/src/com/heatwave/leetcode/contest/biweekly/_20221210_93/_6263FrogJumpii.java)
 
+### 94. 2022-12-24
+
+- [6273. Maximum Enemy Forts That Can Be Captured (最多可以摧毁的敌人城堡数目)](java/src/com/heatwave/leetcode/contest/biweekly/_20221224_94/_6273MaximumEnemyFortsThatCanBeCaptured.java)
+- [6274. Reward Top K Students (奖励最顶尖的 K 名学生)](java/src/com/heatwave/leetcode/contest/biweekly/_20221224_94/_6274RewardTopKStudents.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
