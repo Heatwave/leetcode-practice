@@ -87,6 +87,10 @@
 - [6265. Count Pairs Of Similar Strings (统计相似字符串对的数目)](java/src/com/heatwave/leetcode/contest/weekly/_20221218_324/_6265CountPairsOfSimilarStrings.java)
 - [6266. Smallest Value After Replacing With Sum of Prime Factors (使用质因数之和替换后可以取到的最小值)](java/src/com/heatwave/leetcode/contest/weekly/_20221218_324/_6266SmallestValueAfterReplacingWithSumOfPrimeFactors.java)
 
+### 325. 2022-12-25
+
+- [6269. Shortest Distance to Target String in a Circular Array (到目标字符串的最短距离)](java/src/com/heatwave/leetcode/contest/weekly/_20221225_325/_6269ShortestDistanceToTargetStringInACircularArray.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
