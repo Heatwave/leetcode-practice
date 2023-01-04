@@ -20,6 +20,7 @@
 - [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Recursive (递归)`
 - [23. Merge k Sorted Lists (合并K个升序链表)](java/src/com/heatwave/leetcode/_0023MergeKSortedLists.java) - `Linked List (链表)`, `Priority Queue (优先级队列)`
+- [26. Remove Duplicates from Sorted Array (删除有序数组中的重复项)](java/src/com/heatwave/leetcode/_0026RemoveDuplicatesFromSortedArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
 - [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
 - [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
