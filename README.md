@@ -114,6 +114,12 @@
 - [6273. Maximum Enemy Forts That Can Be Captured (最多可以摧毁的敌人城堡数目)](java/src/com/heatwave/leetcode/contest/biweekly/_20221224_94/_6273MaximumEnemyFortsThatCanBeCaptured.java)
 - [6274. Reward Top K Students (奖励最顶尖的 K 名学生)](java/src/com/heatwave/leetcode/contest/biweekly/_20221224_94/_6274RewardTopKStudents.java)
 
+### 95. 2023-01-07
+
+- [6287. Categorize Box According to Criteria (根据规则将箱子分类)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6287CategorizeBoxAccordingToCriteria.java)
+- [6288. Find Consecutive Integers from a Data Stream (找到数据流中的连续整数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6288FindConsecutiveIntegersFromADataStream.java)
+- [6289. Find Xor-Beauty of Array (查询数组 Xor 美丽值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6289FindXorBeautyOfArray.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
