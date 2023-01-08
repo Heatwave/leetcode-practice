@@ -59,7 +59,24 @@ public class _0283MoveZeroes {
         }
     }
 
-    public static void main(String[] args) {
+    static class SolutionSlowFast {
+        public void moveZeroes(int[] nums) {
+            int n = nums.length;
+            int slow = 0, fast = 0;
 
+            while (fast < n) {
+                if (nums[fast] != 0) {
+                    swap(nums, slow, fast);
+                    slow++;
+                }
+                fast++;
+            }
+        }
+
+        private void swap(int[] nums, int a, int b) {
+            int temp = nums[a];
+            nums[a] = nums[b];
+            nums[b] = temp;
+        }
     }
 }
