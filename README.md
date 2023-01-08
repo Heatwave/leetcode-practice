@@ -95,6 +95,11 @@
 
 - [6269. Shortest Distance to Target String in a Circular Array (到目标字符串的最短距离)](java/src/com/heatwave/leetcode/contest/weekly/_20221225_325/_6269ShortestDistanceToTargetStringInACircularArray.java)
 
+### 327. 2023-01-08
+
+- [6283. Maximum Count of Positive Integer and Negative Integer (正整数和负整数的最大计数)](java/src/com/heatwave/leetcode/contest/weekly/_20230108_327/_6283MaximumCountOfPositiveIntegerAndNegativeInteger.java)
+- [6285. Maximal Score After Applying K Operations (执行 K 次操作后的最大分数)](java/src/com/heatwave/leetcode/contest/weekly/_20230108_327/_6285MaximalScoreAfterApplyingKOperations.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
