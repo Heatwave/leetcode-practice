@@ -43,7 +43,7 @@
 - [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [142. Linked List Cycle II (环形链表 II)](java/src/com/heatwave/leetcode/_0142LinkedListCycleii.java) - `Linked List (链表)`, `Double Point (双指针)`, `Hash Table (哈希表)`
 - [160. Intersection of Two Linked Lists (相交链表)](java/src/com/heatwave/leetcode/_0160IntersectionOfTwoLinkedLists.java) - `Linked List (链表)`, `Hash Table (哈希表)`
-- [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Double Point (双指针)`
+- [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Array (数组)`, `Double Point (双指针)`
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
 - [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/_0216CombinationSumiii.java) - `Backtracking (回溯)`

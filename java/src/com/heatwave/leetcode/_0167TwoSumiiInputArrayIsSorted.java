@@ -64,6 +64,24 @@ public class _0167TwoSumiiInputArrayIsSorted {
         }
     }
 
+    static class AnotherSolution {
+        public int[] twoSum(int[] numbers, int target) {
+            int n = numbers.length;
+            int left = 0, right = n - 1;
+
+            while (true) {
+                int sum = numbers[left] + numbers[right];
+                if (sum == target) {
+                    return new int[]{left + 1, right + 1};
+                } else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = new int[]{2, 7, 11, 15};
