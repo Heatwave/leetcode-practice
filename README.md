@@ -102,6 +102,11 @@
 - [6283. Maximum Count of Positive Integer and Negative Integer (正整数和负整数的最大计数)](java/src/com/heatwave/leetcode/contest/weekly/_20230108_327/_6283MaximumCountOfPositiveIntegerAndNegativeInteger.java)
 - [6285. Maximal Score After Applying K Operations (执行 K 次操作后的最大分数)](java/src/com/heatwave/leetcode/contest/weekly/_20230108_327/_6285MaximalScoreAfterApplyingKOperations.java)
 
+### 328. 2023-01-15
+
+- [6291. Difference Between Element Sum and Digit Sum of an Array (数组元素和与数字和的绝对差)](java/src/com/heatwave/leetcode/contest/weekly/_20230115_328/_6291DifferenceBetweenElementSumAndDigitSumOfAnArray.java)
+- [6292. Increment SubMatrices by One (子矩阵元素加 1)](java/src/com/heatwave/leetcode/contest/weekly/_20230115_328/_6292IncrementSubMatricesByOne.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
