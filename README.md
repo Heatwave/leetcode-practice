@@ -132,6 +132,10 @@
 - [6288. Find Consecutive Integers from a Data Stream (找到数据流中的连续整数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6288FindConsecutiveIntegersFromADataStream.java)
 - [6289. Find Xor-Beauty of Array (查询数组 Xor 美丽值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6289FindXorBeautyOfArray.java)
 
+### 95. 2023-01-21
+
+- [2540. Minimum Common Value (最小公共值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230121_96/_2540MinimumCommonValue.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
