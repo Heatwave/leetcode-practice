@@ -107,6 +107,12 @@
 - [6291. Difference Between Element Sum and Digit Sum of an Array (数组元素和与数字和的绝对差)](java/src/com/heatwave/leetcode/contest/weekly/_20230115_328/_6291DifferenceBetweenElementSumAndDigitSumOfAnArray.java)
 - [6292. Increment SubMatrices by One (子矩阵元素加 1)](java/src/com/heatwave/leetcode/contest/weekly/_20230115_328/_6292IncrementSubMatricesByOne.java)
 
+### 329. 2023-01-22
+
+- [2544. Alternating Digit Sum (交替数字和)](java/src/com/heatwave/leetcode/contest/weekly/_20230122_329/_2544AlternatingDigitSum.java)
+- [2545. Sort the Students by Their Kth Score (根据第 K 场考试的分数排序)](java/src/com/heatwave/leetcode/contest/weekly/_20230122_329/_2545SortTheStudentsByTheirKthScore.java)
+- [2546. Apply Bitwise Operations to Make Strings Equal (执行逐位运算使字符串相等)](java/src/com/heatwave/leetcode/contest/weekly/_20230122_329/_2546ApplyBitwiseOperationsToMakeStringsEqual.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
@@ -132,7 +138,7 @@
 - [6288. Find Consecutive Integers from a Data Stream (找到数据流中的连续整数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6288FindConsecutiveIntegersFromADataStream.java)
 - [6289. Find Xor-Beauty of Array (查询数组 Xor 美丽值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230107_95/_6289FindXorBeautyOfArray.java)
 
-### 95. 2023-01-21
+### 96. 2023-01-21
 
 - [2540. Minimum Common Value (最小公共值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230121_96/_2540MinimumCommonValue.java)
 
