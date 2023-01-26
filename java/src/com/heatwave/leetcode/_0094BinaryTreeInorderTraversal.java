@@ -18,7 +18,6 @@ package com.heatwave.leetcode;
  */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
@@ -78,6 +77,35 @@ public class _0094BinaryTreeInorderTraversal {
                 ans.add(root.val);
                 root = root.right;
             }
+            return ans;
+        }
+    }
+
+    static class SolutionMorris {
+        public List<Integer> inorderTraversal(TreeNode root) {
+            List<Integer> ans = new ArrayList<>();
+            TreeNode predecessor;
+
+            while (root != null) {
+                if (root.left == null) {
+                    ans.add(root.val);
+                    root = root.right;
+                    continue;
+                }
+
+                predecessor = root.left;
+                while (predecessor.right != null && predecessor.right != root) {
+                    predecessor = predecessor.right;
+                }
+                if (predecessor.right == null) {
+                    predecessor.right = root;
+                    root = root.left;
+                } else {
+                    ans.add(root.val);
+                    root = root.right;
+                }
+            }
+
             return ans;
         }
     }
