@@ -44,6 +44,7 @@
 - [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/problems/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
 - [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/problems/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [142. Linked List Cycle II (环形链表 II)](java/src/com/heatwave/leetcode/problems/_0142LinkedListCycleii.java) - `Linked List (链表)`, `Double Point (双指针)`, `Hash Table (哈希表)`
+- [144. Binary Tree Preorder Traversal (二叉树的前序遍历)](java/src/com/heatwave/leetcode/problems/_0144BinaryTreePreorderTraversal.java) - `Binary Tree (二叉树)`, `Preorder (前序遍历)`, `DFS (深度优先搜索)`
 - [160. Intersection of Two Linked Lists (相交链表)](java/src/com/heatwave/leetcode/problems/_0160IntersectionOfTwoLinkedLists.java) - `Linked List (链表)`, `Hash Table (哈希表)`
 - [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/problems/_0167TwoSumiiInputArrayIsSorted.java) - `Array (数组)`, `Double Point (双指针)`
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/problems/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
