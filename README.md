@@ -14,61 +14,61 @@
 
 ## Problems
 
-- [1. Two Sum (两数之和)](java/src/com/heatwave/leetcode/_0001TwoSum.java) - `Array (数组)`, `Hash Table (哈希表)`
-- [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](java/src/com/heatwave/leetcode/_0003LongestSubstringWithoutRepeatingCharacters.java) - `Sliding Window (滑动窗口)`
-- [5. Longest Palindromic Substring (最长回文子串)](java/src/com/heatwave/leetcode/_0005LongestPalindromicSubString.java) - `Sliding Window (滑动窗口)`, `Dynamic Programming (动态规划)`
-- [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
-- [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/_0019RemoveNthNodeFromEndOfList.java) - `Linked List (链表)`, `Double Point (双指针)`
-- [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Recursive (递归)`
-- [23. Merge k Sorted Lists (合并K个升序链表)](java/src/com/heatwave/leetcode/_0023MergeKSortedLists.java) - `Linked List (链表)`, `Priority Queue (优先级队列)`
-- [26. Remove Duplicates from Sorted Array (删除有序数组中的重复项)](java/src/com/heatwave/leetcode/_0026RemoveDuplicatesFromSortedArray.java) - `Array (数组)`, `Double Point (双指针)`
-- [27. Remove Element (移除元素)](java/src/com/heatwave/leetcode/_0027RemoveElement.java) - `Array (数组)`, `Double Point (双指针)`
-- [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
-- [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
-- [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
-- [39. Combination Sum (组合总和)](java/src/com/heatwave/leetcode/_0039CombinationSum.java) - `Backtracking (回溯)`
-- [40. Combination Sum II (组合总和 II)](java/src/com/heatwave/leetcode/_0040CombinationSumii.java) - `Backtracking (回溯)`
-- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/_0046Permutations.java) - `Backtracking (回溯)`
-- [47. Permutations II (全排列 II)](java/src/com/heatwave/leetcode/_0047Permutationsii.java) - `Backtracking (回溯)`
-- [51. N-Queens (N 皇后)](java/src/com/heatwave/leetcode/_0051NQueens.java) - `Backtracking (回溯)`
-- [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
-- [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
-- [77. Combinations (组合)](java/src/com/heatwave/leetcode/_0077Combinations.java) - `Backtracking (回溯)`
-- [78. Subsets (子集)](java/src/com/heatwave/leetcode/_0078SubSets.java) - `Backtracking (回溯)`
-- [83. Remove Duplicates from Sorted List (删除排序链表中的重复元素)](java/src/com/heatwave/leetcode/_0083RemoveDuplicatesFromSortedList.java) - `Linked List (链表)`, `Double Point (双指针)`
-- [86. Partition List (分隔链表)](java/src/com/heatwave/leetcode/_0086PartitionList.java) - `Linked List (链表)`, `Double Point (双指针)`
-- [90. Subsets ii (子集 II)](java/src/com/heatwave/leetcode/_0090SubSetsii.java) - `Backtracking (回溯)`
-- [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/_0092ReverseLinkedListii.java) - `Linked List (链表)`
-- [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/_0094BinaryTreeInorderTraversal.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
-- [104. Maximum Depth of Binary Tree (二叉树的最大深度)](java/src/com/heatwave/leetcode/_0104MaximumDepthOfBinaryTree.java) - `Binary Tree (二叉树)`, `BFS (广度优先搜索)`, `DFS (深度优先搜索)`, `Backtracking (回溯)`
-- [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
-- [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
-- [142. Linked List Cycle II (环形链表 II)](java/src/com/heatwave/leetcode/_0142LinkedListCycleii.java) - `Linked List (链表)`, `Double Point (双指针)`, `Hash Table (哈希表)`
-- [160. Intersection of Two Linked Lists (相交链表)](java/src/com/heatwave/leetcode/_0160IntersectionOfTwoLinkedLists.java) - `Linked List (链表)`, `Hash Table (哈希表)`
-- [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/_0167TwoSumiiInputArrayIsSorted.java) - `Array (数组)`, `Double Point (双指针)`
-- [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
-- [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
-- [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/_0216CombinationSumiii.java) - `Backtracking (回溯)`
-- [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
-- [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/_0283MoveZeroes.java) - `Array (数组)`, `Double Point (双指针)`
-- [344. Reverse String (反转字符串)](java/src/com/heatwave/leetcode/_0344ReverseString.java) - `Double Point (双指针)`
-- [491. Increasing Subsequences (递增子序列)](java/src/com/heatwave/leetcode/_0491IncreasingSubsequences.java) - `Backtracking (回溯)`, `Hash Table (哈希表)`
-- [542. 01 Matrix (01 矩阵)](java/src/com/heatwave/leetcode/_0542Matrix01.java) - `BFS (广度优先搜索)`, `Dynamic Programming (动态规划)`
-- [557. Reverse Words in a String III (反转字符串中的单词 III)](java/src/com/heatwave/leetcode/_0557ReverseWordsInAStringiii.java) - `String (字符串)`
-- [567. Permutation in String (字符串的排列)](java/src/com/heatwave/leetcode/_0567PermutationInString.java) - `Sliding Window (滑动窗口)`
-- [617. Merge Two Binary Trees (合并二叉树)](java/src/com/heatwave/leetcode/_0617MergeTwoBinaryTrees.java) - `DFS (深度优先搜索)`
-- [695. Max Area of Island (岛屿的最大面积)](java/src/com/heatwave/leetcode/_0695MaxAreaOfIsland.java) - `DFS (深度优先搜索)`
-- [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/_0704BinarySearch.java) - `Binary Search (二分查找)`
-- [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/_0733FloodFill.java) - `DFS (深度优先搜索)`
-- [784. Letter case permutation (字母大小写全排列)](java/src/com/heatwave/leetcode/_0784LetterCasePermutation.java) - `BFS (广度优先搜索)`, `Backtracking (回溯)`
-- [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/_0876MiddleOfTheLinkedList.java) - `Linked List (链表)`, `Double Point (双指针)`
-- [977. Squares of a Sorted Array (有序数组的平方)](java/src/com/heatwave/leetcode/_0977SquaresOfASortedArray.java) - `Double Point (双指针)`
-- [994. Rotting Oranges (腐烂的橘子)](java/src/com/heatwave/leetcode/_0994RottingOranges.java) - `BFS (广度优先搜索)`
-- [1732. Find the Highest Altitude (找到最高海拔)](java/src/com/heatwave/leetcode/_1732FindTheHighestAltitude.java) - `Prefix Sum (前缀和)`
+- [1. Two Sum (两数之和)](java/src/com/heatwave/leetcode/problems/_0001TwoSum.java) - `Array (数组)`, `Hash Table (哈希表)`
+- [3. Longest Substring Without Repeating Characters (无重复字符的最长子串)](java/src/com/heatwave/leetcode/problems/_0003LongestSubstringWithoutRepeatingCharacters.java) - `Sliding Window (滑动窗口)`
+- [5. Longest Palindromic Substring (最长回文子串)](java/src/com/heatwave/leetcode/problems/_0005LongestPalindromicSubString.java) - `Sliding Window (滑动窗口)`, `Dynamic Programming (动态规划)`
+- [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/problems/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
+- [19. Remove Nth Node From End of List (删除链表的倒数第 N 个结点)](java/src/com/heatwave/leetcode/problems/_0019RemoveNthNodeFromEndOfList.java) - `Linked List (链表)`, `Double Point (双指针)`
+- [21. Merge Two Sorted Lists (合并两个有序链表)](java/src/com/heatwave/leetcode/problems/_0021MergeTwoSortedLists.java) - `Linked List (链表)`, `Recursive (递归)`
+- [23. Merge k Sorted Lists (合并K个升序链表)](java/src/com/heatwave/leetcode/problems/_0023MergeKSortedLists.java) - `Linked List (链表)`, `Priority Queue (优先级队列)`
+- [26. Remove Duplicates from Sorted Array (删除有序数组中的重复项)](java/src/com/heatwave/leetcode/problems/_0026RemoveDuplicatesFromSortedArray.java) - `Array (数组)`, `Double Point (双指针)`
+- [27. Remove Element (移除元素)](java/src/com/heatwave/leetcode/problems/_0027RemoveElement.java) - `Array (数组)`, `Double Point (双指针)`
+- [35. Search Insert Position (搜索插入位置)](java/src/com/heatwave/leetcode/problems/_0035SearchInsertPosition.java) - `Binary Search (二分查找)`
+- [36. Valid Sudoku (有效的数独)](java/src/com/heatwave/leetcode/problems/_0036ValidSudoku.java) - `Array (数组)`, `Hash Table (哈希表)`, `Matrix (矩阵)`
+- [37. Sudoku Solver (解数独)](java/src/com/heatwave/leetcode/problems/_0037SudokuSolver.java) - `Array (数组)`, `Backtracking (回溯)`, `Matrix (矩阵)`
+- [39. Combination Sum (组合总和)](java/src/com/heatwave/leetcode/problems/_0039CombinationSum.java) - `Backtracking (回溯)`
+- [40. Combination Sum II (组合总和 II)](java/src/com/heatwave/leetcode/problems/_0040CombinationSumii.java) - `Backtracking (回溯)`
+- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/problems/_0046Permutations.java) - `Backtracking (回溯)`
+- [47. Permutations II (全排列 II)](java/src/com/heatwave/leetcode/problems/_0047Permutationsii.java) - `Backtracking (回溯)`
+- [51. N-Queens (N 皇后)](java/src/com/heatwave/leetcode/problems/_0051NQueens.java) - `Backtracking (回溯)`
+- [64. Minimum Path Sum (最小路径和)](java/src/com/heatwave/leetcode/problems/_0064MinimumPathSum.java) - `Dynamic Programming (动态规划)`
+- [70. Climbing Stairs (爬楼梯)](java/src/com/heatwave/leetcode/problems/_0070ClimbingStairs.java) - `Dynamic Programming (动态规划)`
+- [77. Combinations (组合)](java/src/com/heatwave/leetcode/problems/_0077Combinations.java) - `Backtracking (回溯)`
+- [78. Subsets (子集)](java/src/com/heatwave/leetcode/problems/_0078SubSets.java) - `Backtracking (回溯)`
+- [83. Remove Duplicates from Sorted List (删除排序链表中的重复元素)](java/src/com/heatwave/leetcode/problems/_0083RemoveDuplicatesFromSortedList.java) - `Linked List (链表)`, `Double Point (双指针)`
+- [86. Partition List (分隔链表)](java/src/com/heatwave/leetcode/problems/_0086PartitionList.java) - `Linked List (链表)`, `Double Point (双指针)`
+- [90. Subsets ii (子集 II)](java/src/com/heatwave/leetcode/problems/_0090SubSetsii.java) - `Backtracking (回溯)`
+- [92. Reverse Linked List II (反转链表 II)](java/src/com/heatwave/leetcode/problems/_0092ReverseLinkedListii.java) - `Linked List (链表)`
+- [94. Binary Tree Inorder Traversal (二叉树的中序遍历)](java/src/com/heatwave/leetcode/problems/_0094BinaryTreeInorderTraversal.java) - `Binary Tree (二叉树)`, `Inorder (中序遍历)`, `DFS (深度优先搜索)`
+- [104. Maximum Depth of Binary Tree (二叉树的最大深度)](java/src/com/heatwave/leetcode/problems/_0104MaximumDepthOfBinaryTree.java) - `Binary Tree (二叉树)`, `BFS (广度优先搜索)`, `DFS (深度优先搜索)`, `Backtracking (回溯)`
+- [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/problems/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
+- [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/problems/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
+- [142. Linked List Cycle II (环形链表 II)](java/src/com/heatwave/leetcode/problems/_0142LinkedListCycleii.java) - `Linked List (链表)`, `Double Point (双指针)`, `Hash Table (哈希表)`
+- [160. Intersection of Two Linked Lists (相交链表)](java/src/com/heatwave/leetcode/problems/_0160IntersectionOfTwoLinkedLists.java) - `Linked List (链表)`, `Hash Table (哈希表)`
+- [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/problems/_0167TwoSumiiInputArrayIsSorted.java) - `Array (数组)`, `Double Point (双指针)`
+- [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/problems/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
+- [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/problems/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
+- [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/problems/_0216CombinationSumiii.java) - `Backtracking (回溯)`
+- [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/problems/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
+- [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/problems/_0283MoveZeroes.java) - `Array (数组)`, `Double Point (双指针)`
+- [344. Reverse String (反转字符串)](java/src/com/heatwave/leetcode/problems/_0344ReverseString.java) - `Double Point (双指针)`
+- [491. Increasing Subsequences (递增子序列)](java/src/com/heatwave/leetcode/problems/_0491IncreasingSubsequences.java) - `Backtracking (回溯)`, `Hash Table (哈希表)`
+- [542. 01 Matrix (01 矩阵)](java/src/com/heatwave/leetcode/problems/_0542Matrix01.java) - `BFS (广度优先搜索)`, `Dynamic Programming (动态规划)`
+- [557. Reverse Words in a String III (反转字符串中的单词 III)](java/src/com/heatwave/leetcode/problems/_0557ReverseWordsInAStringiii.java) - `String (字符串)`
+- [567. Permutation in String (字符串的排列)](java/src/com/heatwave/leetcode/problems/_0567PermutationInString.java) - `Sliding Window (滑动窗口)`
+- [617. Merge Two Binary Trees (合并二叉树)](java/src/com/heatwave/leetcode/problems/_0617MergeTwoBinaryTrees.java) - `DFS (深度优先搜索)`
+- [695. Max Area of Island (岛屿的最大面积)](java/src/com/heatwave/leetcode/problems/_0695MaxAreaOfIsland.java) - `DFS (深度优先搜索)`
+- [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/problems/_0704BinarySearch.java) - `Binary Search (二分查找)`
+- [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/problems/_0733FloodFill.java) - `DFS (深度优先搜索)`
+- [784. Letter case permutation (字母大小写全排列)](java/src/com/heatwave/leetcode/problems/_0784LetterCasePermutation.java) - `BFS (广度优先搜索)`, `Backtracking (回溯)`
+- [876. Middle of the Linked List (链表的中间结点)](java/src/com/heatwave/leetcode/problems/_0876MiddleOfTheLinkedList.java) - `Linked List (链表)`, `Double Point (双指针)`
+- [977. Squares of a Sorted Array (有序数组的平方)](java/src/com/heatwave/leetcode/problems/_0977SquaresOfASortedArray.java) - `Double Point (双指针)`
+- [994. Rotting Oranges (腐烂的橘子)](java/src/com/heatwave/leetcode/problems/_0994RottingOranges.java) - `BFS (广度优先搜索)`
+- [1732. Find the Highest Altitude (找到最高海拔)](java/src/com/heatwave/leetcode/problems/_1732FindTheHighestAltitude.java) - `Prefix Sum (前缀和)`
 
 ## Interview
 
-- [08.01. Three steps problem (三步问题)](java/src/com/heatwave/leetcode/Interview0801ThreeStepsProblem.java) - `Dynamic Programming (动态规划)`
+- [08.01. Three steps problem (三步问题)](java/src/com/heatwave/leetcode/interviews/Interview0801ThreeStepsProblem.java) - `Dynamic Programming (动态规划)`
 
 ## Weekly Contest
 
