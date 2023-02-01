@@ -64,6 +64,7 @@
 - [617. Merge Two Binary Trees (合并二叉树)](java/src/com/heatwave/leetcode/problems/_0617MergeTwoBinaryTrees.java) - `DFS (深度优先搜索)`
 - [695. Max Area of Island (岛屿的最大面积)](java/src/com/heatwave/leetcode/problems/_0695MaxAreaOfIsland.java) - `DFS (深度优先搜索)`
 - [700. Search in a Binary Search Tree (二叉搜索树中的搜索)](java/src/com/heatwave/leetcode/problems/_0700SearchInABinarySearchTree.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`, `Recursive (递归)`
+- [701. Insert into a Binary Search Tree (二叉搜索树中的插入操作)](java/src/com/heatwave/leetcode/problems/_0701InsertIntoABinarySearchTree.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`, `Recursive (递归)`
 - [704. Binary Search (二分查找)](java/src/com/heatwave/leetcode/problems/_0704BinarySearch.java) - `Binary Search (二分查找)`
 - [733. Flood Fill (图像渲染)](java/src/com/heatwave/leetcode/problems/_0733FloodFill.java) - `DFS (深度优先搜索)`
 - [784. Letter case permutation (字母大小写全排列)](java/src/com/heatwave/leetcode/problems/_0784LetterCasePermutation.java) - `BFS (广度优先搜索)`, `Backtracking (回溯)`
