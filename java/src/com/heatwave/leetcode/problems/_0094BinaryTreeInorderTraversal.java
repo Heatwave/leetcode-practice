@@ -23,16 +23,6 @@ import java.util.Stack;
 
 public class _0094BinaryTreeInorderTraversal {
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     static class Solution {
         public List<Integer> inorderTraversal(TreeNode root) {
             List<Integer> res = new ArrayList<>();

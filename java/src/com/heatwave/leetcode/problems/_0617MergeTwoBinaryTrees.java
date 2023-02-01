@@ -32,25 +32,6 @@ package com.heatwave.leetcode.problems;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class _0617MergeTwoBinaryTrees {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     static class Solution {
         public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
             if (root1 == null && root2 == null) {

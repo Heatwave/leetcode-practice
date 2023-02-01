@@ -3,25 +3,6 @@ package com.heatwave.leetcode.problems;
 import java.util.*;
 
 public class _0173BinarySearchTreeIterator {
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     /**
      * Your BSTIterator object will be instantiated and called as such:
      * BSTIterator obj = new BSTIterator(root);
