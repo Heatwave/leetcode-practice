@@ -50,6 +50,7 @@
 - [145. Binary Tree Postorder Traversal (二叉树的后序遍历)](java/src/com/heatwave/leetcode/problems/_0145BinaryTreePostorderTraversal.java) - `Binary Tree (二叉树)`, `Postorder (后序遍历)`, `DFS (深度优先搜索)`
 - [160. Intersection of Two Linked Lists (相交链表)](java/src/com/heatwave/leetcode/problems/_0160IntersectionOfTwoLinkedLists.java) - `Linked List (链表)`, `Hash Table (哈希表)`
 - [167. Two Sum II - Input Array Is Sorted (两数之和 II - 输入有序数组)](java/src/com/heatwave/leetcode/problems/_0167TwoSumiiInputArrayIsSorted.java) - `Array (数组)`, `Double Point (双指针)`
+- [173. Binary Search Tree Iterator (二叉搜索树迭代器)](java/src/com/heatwave/leetcode/problems/_0173BinarySearchTreeIterator.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`, `Inorder (中序遍历)`
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/problems/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/problems/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
 - [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/problems/_0216CombinationSumiii.java) - `Backtracking (回溯)`
