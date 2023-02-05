@@ -123,6 +123,11 @@
 - [2545. Sort the Students by Their Kth Score (根据第 K 场考试的分数排序)](java/src/com/heatwave/leetcode/contest/weekly/_20230122_329/_2545SortTheStudentsByTheirKthScore.java)
 - [2546. Apply Bitwise Operations to Make Strings Equal (执行逐位运算使字符串相等)](java/src/com/heatwave/leetcode/contest/weekly/_20230122_329/_2546ApplyBitwiseOperationsToMakeStringsEqual.java)
 
+### 331. 2023-02-05
+
+- [6348. Take Gifts From the Richest Pile (从数量最多的堆取走礼物)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_6348TakeGiftsFromTheRichestPile.java)
+- [6347. Count Vowel Strings in Ranges (统计范围内的元音字符串数)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_6347CountVowelStringsInRanges.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
