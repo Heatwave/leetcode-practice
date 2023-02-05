@@ -152,6 +152,11 @@
 
 - [2540. Minimum Common Value (最小公共值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230121_96/_2540MinimumCommonValue.java)
 
+### 97. 2023-02-04
+
+- [6303. Separate the Digits in an Array (分割数组中数字的数位)](java/src/com/heatwave/leetcode/contest/biweekly/_20230204_97/_6303SeparateTheDigitsInAnArray.java)
+- [6304. Maximum Number of Integers to Choose From a Range I (从一个范围内选择最多整数 I)](java/src/com/heatwave/leetcode/contest/biweekly/_20230204_97/_6304MaximumNumberOfIntegersToChooseFromARangei.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
