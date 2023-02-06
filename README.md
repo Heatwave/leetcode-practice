@@ -127,6 +127,7 @@
 
 - [6348. Take Gifts From the Richest Pile (从数量最多的堆取走礼物)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_6348TakeGiftsFromTheRichestPile.java)
 - [6347. Count Vowel Strings in Ranges (统计范围内的元音字符串数)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_6347CountVowelStringsInRanges.java)
+- [2560. House Robber IV (打家劫舍 IV)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_2560HouseRobberIV.java)
 
 ## Biweekly Contest
 
