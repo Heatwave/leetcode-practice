@@ -1,11 +1,33 @@
 package com.heatwave.leetcode.problems;
 
+import java.util.PriorityQueue;
+
 public class _0703KthLargestElementInAStream {
     static class KthLargest {
         int k;
-        TreeNode root;
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         public KthLargest(int k, int[] nums) {
+            this.k = k;
+            for (int num : nums) {
+                add(num);
+            }
+        }
+
+        public int add(int val) {
+            pq.add(val);
+            if (pq.size() > k) {
+                pq.remove();
+            }
+            return pq.element();
+        }
+    }
+
+    static class KthLargestBST {
+        int k;
+        TreeNode root;
+
+        public KthLargestBST(int k, int[] nums) {
             this.k = k;
             for (int num : nums) {
                 root = insertIntoBSTWithCnt(root, num);
