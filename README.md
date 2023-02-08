@@ -54,6 +54,7 @@
 - [189. Rotate Array (轮转数组)](java/src/com/heatwave/leetcode/problems/_0189RotateArray.java) - `Array (数组)`, `Double Point (双指针)`
 - [206. Reverse Linked List (反转链表)](java/src/com/heatwave/leetcode/problems/_0206ReverseLinkedList.java) - `Double Point (双指针)`, `Recursive (递归)`
 - [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/problems/_0216CombinationSumiii.java) - `Backtracking (回溯)`
+- [220. Contains Duplicate III (存在重复元素 III)](java/src/com/heatwave/leetcode/problems/_0220ContainsDuplicateiii.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`
 - [235. Lowest Common Ancestor of a Binary Search Tree (二叉搜索树的最近公共祖先)](java/src/com/heatwave/leetcode/problems/_0235LowestCommonAncestorOfABinarySearchTree.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`, `DFS (深度优先搜索)`
 - [278. First Bad Version (第一个错误的版本)](java/src/com/heatwave/leetcode/problems/_0278FirstBadVersion.java) - `Binary Search (二分查找)`
 - [283. Move Zeroes (移动零)](java/src/com/heatwave/leetcode/problems/_0283MoveZeroes.java) - `Array (数组)`, `Double Point (双指针)`
