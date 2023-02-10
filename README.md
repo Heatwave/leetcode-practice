@@ -43,6 +43,7 @@
 - [98. Validate Binary Search Tree (验证二叉搜索树)](java/src/com/heatwave/leetcode/problems/_0098ValidateBinarySearchTree.java) - `Binary Tree (二叉树)`, `Binary Search Tree (二叉搜索树)`, `Inorder (中序遍历)`
 - [102. Binary Tree Level Order Traversal (二叉树的层序遍历)](java/src/com/heatwave/leetcode/problems/_0102BinaryTreeLevelOrderTraversal.java) - `Binary Tree (二叉树)`, `Level order (层序遍历)`, `BFS (广度优先搜索)`
 - [104. Maximum Depth of Binary Tree (二叉树的最大深度)](java/src/com/heatwave/leetcode/problems/_0104MaximumDepthOfBinaryTree.java) - `Binary Tree (二叉树)`, `BFS (广度优先搜索)`, `DFS (深度优先搜索)`, `Backtracking (回溯)`
+- [110. Balanced Binary Tree (平衡二叉树)](java/src/com/heatwave/leetcode/problems/_0110BalancedBinaryTree.java) - `Binary Tree (二叉树)`
 - [116. Populating Next Right Pointers in Each Node (填充每个节点的下一个右侧节点指针)](java/src/com/heatwave/leetcode/problems/_0116PopulatingNextRightPointersInEachNode.java) - `BFS (广度优先搜索)`, `DFS (深度优先搜索)`
 - [141. Linked List Cycle (环形链表)](java/src/com/heatwave/leetcode/problems/_0141LinkedListCycle.java) - `Linked List (链表)`, `Double Point (双指针)`
 - [142. Linked List Cycle II (环形链表 II)](java/src/com/heatwave/leetcode/problems/_0142LinkedListCycleii.java) - `Linked List (链表)`, `Double Point (双指针)`, `Hash Table (哈希表)`
