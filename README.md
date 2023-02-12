@@ -132,6 +132,11 @@
 - [6347. Count Vowel Strings in Ranges (统计范围内的元音字符串数)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_6347CountVowelStringsInRanges.java)
 - [2560. House Robber IV (打家劫舍 IV)](java/src/com/heatwave/leetcode/contest/weekly/_20230205_331/_2560HouseRobberIV.java)
 
+### 332. 2023-02-12
+
+- [6354. Find the Array Concatenation Value (找出数组的串联值)](java/src/com/heatwave/leetcode/contest/weekly/_20230212_332/_6354FindTheArrayConcatenationValue.java)
+- [6355. Count the Number of Fair Pairs (统计公平数对的数目)](java/src/com/heatwave/leetcode/contest/weekly/_20230212_332/_6355CountTheNumberOfFairPairs.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
