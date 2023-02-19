@@ -177,6 +177,11 @@
 - [6303. Separate the Digits in an Array (分割数组中数字的数位)](java/src/com/heatwave/leetcode/contest/biweekly/_20230204_97/_6303SeparateTheDigitsInAnArray.java)
 - [6304. Maximum Number of Integers to Choose From a Range I (从一个范围内选择最多整数 I)](java/src/com/heatwave/leetcode/contest/biweekly/_20230204_97/_6304MaximumNumberOfIntegersToChooseFromARangei.java)
 
+### 98. 2023-02-18
+
+- [6359. Maximum Difference by Remapping a Digit (替换一个数字后的最大差值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230218_98/_6359MaximumDifferenceByRemappingADigit.java)
+- [6361. Minimum Score by Changing Two Elements (修改两个元素的最小分数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230218_98/_6361MinimumScoreByChangingTwoElements.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
