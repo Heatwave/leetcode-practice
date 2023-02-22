@@ -5,6 +5,21 @@ public class _0122BestTimeToBuyAndSellStockii {
         public int maxProfit(int[] prices) {
             int n = prices.length;
 
+            int buy = -prices[0], sell = 0;
+
+            for (int i = 1; i < n; i++) {
+                buy = Math.max(buy, sell - prices[i]);
+                sell = Math.max(sell, buy + prices[i]);
+            }
+
+            return sell;
+        }
+    }
+
+    class SolutionDpOptimization {
+        public int maxProfit(int[] prices) {
+            int n = prices.length;
+
             int buyYesterday = -prices[0], sellYesterday = 0;
             int buyToday = 0, sellToday = 0;
 
