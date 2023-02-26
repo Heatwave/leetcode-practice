@@ -146,6 +146,11 @@
 - [6354. Find the Array Concatenation Value (找出数组的串联值)](java/src/com/heatwave/leetcode/contest/weekly/_20230212_332/_6354FindTheArrayConcatenationValue.java)
 - [6355. Count the Number of Fair Pairs (统计公平数对的数目)](java/src/com/heatwave/leetcode/contest/weekly/_20230212_332/_6355CountTheNumberOfFairPairs.java)
 
+### 334. 2023-02-26
+
+- [6369. Left and Right Sum Differences (左右元素和的差值)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_6369LeftAndRightSumDifferences.java)
+- [6368. Find the Divisibility Array of a String (找出字符串的可整除数组)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_6368FindTheDivisibilityArrayOfAString.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
