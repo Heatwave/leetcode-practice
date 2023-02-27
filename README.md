@@ -150,6 +150,7 @@
 
 - [6369. Left and Right Sum Differences (左右元素和的差值)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_6369LeftAndRightSumDifferences.java)
 - [6368. Find the Divisibility Array of a String (找出字符串的可整除数组)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_6368FindTheDivisibilityArrayOfAString.java)
+- [2576. Find the Maximum Number of Marked Indices (求出最多标记下标)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_2576FindTheMaximumNumberOfMarkedIndices.java)
 
 ## Biweekly Contest
 
