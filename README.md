@@ -191,6 +191,11 @@
 - [6359. Maximum Difference by Remapping a Digit (替换一个数字后的最大差值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230218_98/_6359MaximumDifferenceByRemappingADigit.java)
 - [6361. Minimum Score by Changing Two Elements (修改两个元素的最小分数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230218_98/_6361MinimumScoreByChangingTwoElements.java)
 
+### 98. 2023-03-04
+
+- [6312. Split With Minimum Sum (最小和分割)](java/src/com/heatwave/leetcode/contest/biweekly/_20230304_99/_6312SplitWithMinimumSum.java)
+- [6311. Count Total Number of Colored Cells (统计染色格子数)](java/src/com/heatwave/leetcode/contest/biweekly/_20230304_99/_6311CountTotalNumberOfColoredCells.java)
+
 ## Tree
 
 ### 94.binary-tree-inorder-traversal (二叉树的中序遍历)
