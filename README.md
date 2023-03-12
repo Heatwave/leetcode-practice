@@ -152,6 +152,12 @@
 - [6368. Find the Divisibility Array of a String (找出字符串的可整除数组)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_6368FindTheDivisibilityArrayOfAString.java)
 - [2576. Find the Maximum Number of Marked Indices (求出最多标记下标)](java/src/com/heatwave/leetcode/contest/weekly/_20230226_334/_2576FindTheMaximumNumberOfMarkedIndices.java)
 
+### 336. 2023-03-12
+
+- [6315. Count the Number of Vowel Strings in Range (统计范围内的元音字符串数)](java/src/com/heatwave/leetcode/contest/weekly/_20230312_336/_6315CountTheNumberOfVowelStringsInRange.java)
+- [6316. Rearrange Array to Maximize Prefix Score (重排数组以得到最大前缀分数)](java/src/com/heatwave/leetcode/contest/weekly/_20230312_336/_6316RearrangeArrayToMaximizePrefixScore.java)
+- [6317. Count the Number of Beautiful Subarrays (统计美丽子数组数目)](java/src/com/heatwave/leetcode/contest/weekly/_20230312_336/_6317CountTheNumberOfBeautifulSubarrays.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
