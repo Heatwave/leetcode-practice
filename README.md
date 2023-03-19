@@ -158,6 +158,12 @@
 - [6316. Rearrange Array to Maximize Prefix Score (重排数组以得到最大前缀分数)](java/src/com/heatwave/leetcode/contest/weekly/_20230312_336/_6316RearrangeArrayToMaximizePrefixScore.java)
 - [6317. Count the Number of Beautiful Subarrays (统计美丽子数组数目)](java/src/com/heatwave/leetcode/contest/weekly/_20230312_336/_6317CountTheNumberOfBeautifulSubarrays.java)
 
+### 337. 2023-03-19
+
+- [6319. Number of Even and Odd Bits (奇偶位数)](java/src/com/heatwave/leetcode/contest/weekly/_20230319_337/_6319NumberOfEvenAndOddBits.java)
+- [6322. Check Knight Tour Configuration (检查骑士巡视方案)](java/src/com/heatwave/leetcode/contest/weekly/_20230319_337/_6322CheckKnightTourConfiguration.java)
+- [6352. The Number of Beautiful Subsets (美丽子集的数目)](java/src/com/heatwave/leetcode/contest/weekly/_20230319_337/_6352TheNumberOfBeautifulSubsets.java)
+
 ## Biweekly Contest
 
 ### 92. 2022-11-26
