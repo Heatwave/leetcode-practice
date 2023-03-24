@@ -7,3 +7,4 @@
 out
 *.iml
 java/target
+java/src/com/heatwave/hackerrank
