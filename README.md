@@ -3,14 +3,15 @@
 ## Table of content
 
 1. [Problems](#problems)
-1. [Interview](#interview)
-1. [Weekly Contest](#weekly-contest)
-1. [Biweekly Contest](#biweekly-contest)
-2. [Tree](#tree)
-3. [Queue & Stack](#queue--stack)
-4. [List](#list)
-5. [Dynamic Programming](#dynamic-programming)
-6. [Others](#others)
+2. [Interview](#interview)
+3. [Weekly Contest](#weekly-contest)
+4. [Biweekly Contest](#biweekly-contest)
+5. [Permutation - Combination - Subset](#permutation---combination---subset)
+6. [Tree](#tree)
+7. [Queue & Stack](#queue--stack)
+8. [List](#list)
+9. [Dynamic Programming](#dynamic-programming)
+10. [Others](#others)
 
 ## Problems
 
@@ -212,6 +213,26 @@
 
 - [6323. Distribute Money to Maximum Children (将钱分给最多的儿童)](java/src/com/heatwave/leetcode/contest/biweekly/_20230318_100/_6323DistributeMoneyToMaximumChildren.java)
 - [6324. Maximize Greatness of an Array (最大化数组的伟大值)](java/src/com/heatwave/leetcode/contest/biweekly/_20230318_100/_6324MaximizeGreatnessOfAnArray.java)
+
+## Permutation - Combination - Subset
+
+### Permutation 排列
+
+- [46. Permutations (全排列)](java/src/com/heatwave/leetcode/problems/_0046Permutations.java) - `Backtracking (回溯)`
+- [47. Permutations II (全排列 II)](java/src/com/heatwave/leetcode/problems/_0047Permutationsii.java) - `Backtracking (回溯)`
+
+### Combination 组合
+
+- [17. Letter Combinations of a Phone Number (电话号码的字母组合)](java/src/com/heatwave/leetcode/problems/_0017LetterCombinationsOfAPhoneNumber.java) - `Backtracking (回溯)`
+- [39. Combination Sum (组合总和)](java/src/com/heatwave/leetcode/problems/_0039CombinationSum.java) - `Backtracking (回溯)`
+- [40. Combination Sum II (组合总和 II)](java/src/com/heatwave/leetcode/problems/_0040CombinationSumii.java) - `Backtracking (回溯)`
+- [216. Combination Sum III (组合总和 III)](java/src/com/heatwave/leetcode/problems/_0216CombinationSumiii.java) - `Backtracking (回溯)`
+- [77. Combinations (组合)](java/src/com/heatwave/leetcode/problems/_0077Combinations.java) - `Backtracking (回溯)`
+
+### Subset 子集
+
+- [78. Subsets (子集)](java/src/com/heatwave/leetcode/problems/_0078SubSets.java) - `Backtracking (回溯)`
+- [90. Subsets ii (子集 II)](java/src/com/heatwave/leetcode/problems/_0090SubSetsii.java) - `Backtracking (回溯)`
 
 ## Tree
 
